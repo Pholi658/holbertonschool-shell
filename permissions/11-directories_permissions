@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 711 */
+find . -mindepth 1 -type d -exec chmod 111 {} +
